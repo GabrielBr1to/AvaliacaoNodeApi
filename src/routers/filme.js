@@ -4,6 +4,6 @@ const router = express.Router();
 
 const controllers = new ControllerFilme();
 
-router.post("/api/cartaz");
+router.post("/filme", ControllerFilme.adicionar);
 
 export default router;
